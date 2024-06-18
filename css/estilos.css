@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/*----HEADER----*/
+header{
+    background-color: #A8E6CE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.itemMenu {
+    padding: 30px;
+    color: white;
+}
+
+/*---MAIN----*/
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url(https://cdn.discordapp.com/attachments/1156659029066645594/1167598298291523644/OIG.jpeg?ex=654eb5a7&is=653c40a7&hm=86d314e0c5c36f7846451417275f451688ac252647a5289066a7c034f6ea23b7&);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*----PRODUCTOS----*/
+.contenedorCards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.product {
+    height: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    margin: 10px;
+    box-shadow: 10px 13px 5px -4px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 10px 13px 5px -4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 13px 5px -4px rgba(0,0,0,0.23);
+}
+
+.product img {
+    height: 151px;      
+}
+.product h3 {
+    margin-top: 0;
+}
+
+/*----CARRITO----*/
+.cart {
+    border: 2px solid black;
+}
+
+.cart h2{
+    text-align: center;
+    background-color:  rgb(168, 168, 168);
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    margin-bottom: 5px;
+}
+
+.cart div{
+    text-align: center;
+}
+
+.cart button{
+    padding: 5px;
+}
+
+.add-to-cart-btn {
+    background-color: white;
+    /* border-radius: 10px; */
+    color: grey;
+    border: 2px solid grey;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.add-to-cart-btn:hover{
+    background-color: grey;
+    color: white;
+    
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(168, 168, 168);
+    color: white;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+/*--FOOTER--*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 20px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+h1{font-size: 20px;}
+h2{font-size: 20px;}
+h3{font-size: 20px;}
+h3{font-size: 20px;}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo.png" alt="432x463">
+        <nav>
+            <ul class="menu">
+                <li class="itemMenu">Carrito</li>
+                <li class="itemMenu">Vender</li>
+                <i class='bx bxs-user-circle' ></i><li class="itemMenu">Usuario</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <section class="portada">
+            <h1>Green Market</h1>
+            <p>Compra - Venta Sustentable</p>
+        </section>
+        <!-- Cards -->
+        <section class="contenedorCards">
+            <div class="product" data-price="10">
+                <h3>Botella de acero inoxidable</h3>
+                <img src="./img/botellaAceroInoxidable.jpg" alt="plano"> 
+                <button type="button" class="btn btn-primary" id="1">Agregar</button>
+            </div>
+            <div class="product" data-price="20">
+                <h3>Cepillo de bambú</h3>
+                <img src="./img/cepilloBambu.jpg" alt="plano">
+                <button type="button" class="btn btn-primary">Agregar</button>
+            </div>
+            <div class="product" data-price="20">
+                <h3>Macetas compostables</h3>
+                <img src="./img/macetasCompostables.jpg" alt="plano">
+                <button type="button" class="btn btn-primary">Agregar</button>
+            </div>
+            <div class="product" data-price="20">
+                <h3>Vajilla de madera</h3>
+                <img src="./img/vajillaMadera.jpg" alt="plano">
+                <button type="button" class="btn btn-primary">Agregar</button>
+            </div>
+        </section>
+        <section class="contenedorCarrito">
+            <div class="cart">
+                <h2>Carrito</h2>
+                <ul></ul>
+                <div>
+                    <button type="button" class="btn btn-danger">Vaciar carrito</button>
+                </div>
+                <br>
+            </div>
+        </section>
+        <div class="total">
+            <p>Total: <span class="total-price"> $0</span>Ars</p>
+        </div>
+    </main>
+    <footer>
+        <img src="https://dummyimage.com/100x100/c5c6c7/fff" alt="">
+        <div>
+            <a href=""><img src="https://dummyimage.com/50x50/c5c6c7/fff" alt=""></a>
+            <a href=""><img src="https://dummyimage.com/50x50/c5c6c7/fff" alt=""></a>
+            <a href=""><img src="https://dummyimage.com/50x50/c5c6c7/fff" alt=""></a> 
+            <!-- Fotos footer -->
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
